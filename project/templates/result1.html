@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Dummy UPI Payment - Result</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Dummy UPI Payment - Result</h1>
+        <div class="alert alert-info" role="alert">
+            <strong>Payment Result:</strong> {{ payment_result }}
+        </div>
+        <div class="alert alert-success" role="alert">
+            <strong>Payment Details:</strong><br>
+            {{ details_result | safe }}
+        </div>
+        <div class="alert alert-warning" role="alert">
+            <strong>Snapshot Result:</strong> {{ snapshot_result }}
+        </div>
+        <a href="/" class="btn btn-primary">Go Back</a>
+    </div>
+</body>
+</html>
