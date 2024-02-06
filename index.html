@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    
+    <script async src="../pagead2.googlesyndication.com/pagead/js/fef8b.txt?client=ca-pub-6207141508432920"
+     crossorigin="anonymous"></script>
+    
+    <script async src="../pagead2.googlesyndication.com/pagead/js/fef8b.txt?client=ca-pub-6207141508432920"
+     crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evalution Of UPI</title>
+    <link rel="icon" type="image/png" href="auth/assets/img/hdfc.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet" />
+    <link href="home/assets/css/theme.css" rel="stylesheet" />
+<style type="text/css">
+.plan-box {
+    background-color: transparent;
+    box-shadow: 0px 1px 15px 1px rgb(69 65 78 / 8%);
+    border: none;
+}  
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #FFFEFE;
+    background-color: #066ede;
+    border-color: #066ede;
+}
+
+.btn-primary:hover {
+    color: #FFFEFE;
+    background-color: #b3006b;
+    border-color: #b3006b;
+}
+
+.btn-primary {
+    color: #FFFEFE;
+    background-color: #e7008a;
+    border-color: #b3006b;
+}
+.text-primary {
+    color: #b3006b !important;
+}
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+    color: #FFFEFE;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-outline-primary:hover {
+    color: #FFFEFE;
+    background-color: #b3006b;
+    border-color: #b3006b;
+}
+.btn-outline-primary {
+    color: #b3006b;
+    border-color: #b3006b;
+}
+.modal-content {
+    border-radius: 0.5rem;
+}
+</style>    
+</head>
+
+<body>
+<!-- Modal -->
+<div class="modal fade" id="disclaimer" tabindex="-1" aria-labelledby="Disclaimer" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Disclaimer">❗ Disclaimer</h5>
+      </div>
+      <div class="modal-body">
+		  <!-- <p>This site does not provide any payment gateway services, UPI accounts, or UPI merchant accounts.</p> -->
+		  <!-- <p>We only provide an API to generate a QR code for your UPI ID.</p> -->
+		  <!-- <p>We are not involved in any kind of transaction. Please read our terms and conditions before using our service.</p> -->
+	  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark btn-sm" onclick="$('body').html('');">Leave</button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-dismiss="modal">I Agree</button>
+      </div>
+    </div>
+  </div>
+</div>        
+        <!-- ===============================================-->
+        <!--    Main Content-->
+        <!-- ===============================================-->
+        <main class="main" id="top">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top" data-navbar-on-scroll="data-navbar-on-scroll">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"> </span>
+                    </button>
+                    <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html"><h4>Home</h4></a></li>
+                          <li class="nav-item"><a class="nav-link" aria-current="page" href="#feature"><h4>Features</h4></a></li>
+                            <li class="nav-item"><a class="nav-link" aria-current="page" href="#Prototype"><h4>Prototype</h4></a></li>
+                            <li class="nav-item"><a class="nav-link" aria-current="page" href="#helpdesk"><h4>HelpDesk</h4></a></li>
+                        </ul>
+                        <div class="d-flex ms-lg-4"><a class="btn btn-secondary-outline" href="D:\python\project\templates\index1.html"><h4>Demo Payment</h4></a><a class="btn btn-primary ms-3" href="D:\python\project\templates\result1.html"><h4>Demo Result</h4></a></div>
+                    </div>
+                </div>
+            </nav>
+            <section class="pt-4" style="margin-bottom: -20px;background-image: url(home/upiapp/wavenew.svg);background-size: cover;color: white;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-md-start text-center py-5">
+                            <h1 class="mb-4 fs-9 fw-bold text-white">Evolution Of UPI</h1>
+                            <p class="mb-6 lead text-white">
+                                Transforming Digital Payments.<br> Let's Move One Step Ahead.<br> 
+                            </p>
+                            <div class="text-center text-md-start">
+                                <a class="btn bg-white me-3 btn-lg" href="file:///C:/Users/HP/Downloads/Blue%20Modern%20Security%20and%20Technology%20Presentation_20240205_131807_0000.pdf" role="button"><span class="fas fa-bolt me-2"></span>For More Details Check Out Our PPt.</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid" src="home/upiapp/qrcode.svg" alt="" style="width:1000px"/></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="mb-4">
+                <div class="bg-holder z-index--1 bottom-0 d-none d-lg-block" style="background-image: url(home/upiapp/1-background.webp); opacity: 0.5;"></div>
+                <!--/.bg-holder-->
+
+                <div class="container">
+                    <h1 class="fs-6 fw-bold text-center">
+                        Accepting Payments Made Easy, Simple & FREE using UPI!
+                    </h1>
+                    <!-- <p class="text-center" style="font-size: 12px;">The logos below are the property of respective trademark owners. All the below apps support BHIM-UPI.</p> -->
+                    <div class="row p-2">
+                        <div class="col-lg-12 col-sm-12 text-center">
+                            <img class="mb-3" src="home/upiapp/qrall.jpg" width="70%" alt="upiapp">
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-4" id="feature">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2 class="mb-2 fs-7 fw-bold mb-4 text-black">How Actually UPI Work's and it's Key Points.</h2>
+                            <h4 class="fs-1 fw-bold text-black">Multiple  Merchant.</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                Means It Can handle Multiple Transactions At A time In A Single Account!
+                            </p>
+                            <h4 class="fs-1 fw-bold text-black">Transaction Charge</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                There Is No Extra Charge For UPI Payments!
+                            </p>
+                            <h4 class="fs-1 fw-bold text-black">UPI Security</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                As Such There Are Biomatric and Password Security For our UPI! 
+                            </p>
+                            <h4 class="fs-1 fw-bold text-black">Dynamic QR Code</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                UPI Can Accept Payments Directly From Dynamic QR Code!<br>(Like Paytm, Phonepe, GooglePay, BHIM UPI, etc.)
+                            </p>
+                            <h4 class="fs-1 fw-bold text-black">Real Time Money Exchange.</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                Through UPI The Money Is Transfered From Bank To Bank At Real Time!
+                            </p>
+                        </div>
+                        <div class="col-lg-6"><img class="img-fluid" src="home/upiapp/scannpay.svg" alt="" /></div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <section class="pt-5" id="Prototype">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2 class="mb-2 fs-7 fw-bold mb-4 text-black">Our Future Goals and Upgrade in Current UPI System!</h2>
+                            <h4 class="fs-1 fw-bold text-black">Security Enhancement.</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                Means It Is Taking Snapshot Of The User From The Front Camera While The Payment is Completed, Which Add A Extra Security Layer To The System!  
+                            </p>
+                            <h4 class="fs-1 fw-bold text-black">VPN Blocker</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                Means It is Working Like if There Is Any VPN(Virtal Private Network) Conneted Through The System Then It Will Cancel The Payment!
+                            </p>
+                            <h4 class="fs-1 fw-bold text-black">Offline Peer-to-Peer Transactions</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                It Is Like We Can Make Payments Without Internet Now the Question is How?<br>So The Answere is After Scanning QRcode The System Will Genrate a Text Message Which Will Ask You The Amount To be Paid With The Reciver's Details And After Giving 
+                                The Amount It Will genrate An Secrete Message Which We Have To Share With The Reciver To Complete The Transaction.
+                            </p>
+                            <h4 class="fs-1 fw-bold text-black">Cross-Border Transactions</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                Enable smooth cross
+                                border transactions,
+                                 fostering UPI's role as a
+                                 global payment solution!
+                            </p>
+                            <h4 class="fs-1 fw-bold text-black"> Infrastructure Enhancement</h4>
+                            <p class="mb-4 fw-medium text-black">
+                                Invest in scalable
+                                infrastructure to support
+                                increased transaction
+                                volumes, ensuring
+                                reliability during peak
+                                usage and international
+                                transactions!
+                            </p>
+                        </div>
+                        <div class="col-lg-6"><img class="img-fluid" src="c:\Users\HP\Downloads\Blue Dark Minimalist Coming Soon Your Story (1).png" alt="" /></div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+             <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <!-- <section class="pt-2 mb-4" id="pricing" style=" background-image: url(home/upiapp/wavenew.svg); background-size: cover; ">
+                <div class="container py-5">
+                 <div class="mb-4 text-white"> 
+                   <h2 class="fs-7 fw-bold text-white">Pricing</h2>
+                   <p>Choose Your Suitable Plan</p>
+                 </div>
+                    <div class="row">                           
+                                          
+                            <div class="col-md-3 mb-4">
+                                <div class="card plan-box text-center">
+                                    <div class="card-header">
+                                        <h4 class="card-title mt-2">Trail</h4>
+                                        <h2 class="text-center">₹100</h2>
+                                        <p class="card-category">1 Month</p>
+                                    </div>
+                                    <div class="card-body bg-white">
+                                        <div class="mb-2 text-primary">
+                                            <b style="font-weight:700;font-size:1rem;">200 Transactions</b></div>
+                                        <table class="mx-auto" style=" line-height: 0.99em; ">
+                                 <tbody>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>4 Merchant Account</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>0 Transaction Fee</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>Realtime Transaction</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>No Amount Limit</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">HDFC Merchant</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">Paytm Business</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">PhonePe Business</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">BharatPe Business</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Dynamic QR Code</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p style="color:red;">Wordpress Plugin</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Direct UPI Intent</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Accept All UPI Apps</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>24*7 WhatsApp Support</p></td>
+    </tr>
+</tbody>
+
+                                        </table>
+                                    </div>
+                                    <div class="card-footer">
+                                      <a href="auth/register" class="btn btn-outline-primary btn-block">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>          
+                                          
+                            <div class="col-md-3 mb-4">
+                                <div class="card plan-box text-center">
+                                    <div class="card-header">
+                                        <h4 class="card-title mt-2">Starter</h4>
+                                        <h2 class="text-center">₹299</h2>
+                                        <p class="card-category">1 Month</p>
+                                    </div>
+                                    <div class="card-body bg-white">
+                                        <div class="mb-2 text-primary">
+                                            <b style="font-weight:700;font-size:1rem;">3000 Transactions</b></div>
+                                        <table class="mx-auto" style=" line-height: 0.99em; ">
+                                       <tbody>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>4 Merchant Account</p></td>
+    </tr>                                           
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>0 Transaction Fee</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>Realtime Transaction</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>No Amount Limit</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">HDFC Merchant</p></td>
+    </tr>   
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">BharatPe Business</p></td>
+    </tr>  
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">PhonePe Business</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">Paytm Business</p></td>
+    </tr>                                              
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Dynamic QR Code</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p style="color:red;">Wordpress Plugin</p></td>
+    </tr>                                            
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Direct UPI Intent</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Accept All UPI Apps</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>24*7 WhatsApp Support</p></td>
+    </tr>
+</tbody>
+                                        </table>
+                                    </div>
+                                    <div class="card-footer">
+                                      <a href="auth/register" class="btn btn-outline-primary btn-block">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>          
+                                          
+                            <div class="col-md-3 mb-4">
+                                <div class="card plan-box text-center">
+                                    <div class="card-header">
+                                        <h4 class="card-title mt-2">Business</h4>
+                                        <h2 class="text-center">₹449</h2>
+                                        <p class="card-category">1 Month</p>
+                                    </div>
+                                    <div class="card-body bg-white">
+                                        <div class="mb-2 text-primary">
+                                            <b style="font-weight:700;font-size:1rem;">10000 Transactions</b></div>
+                                        <table class="mx-auto" style=" line-height: 0.99em; ">
+                                        <tbody>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>4 Merchant Account</p></td>
+    </tr>                                           
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>0 Transaction Fee</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>Realtime Transaction</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>No Amount Limit</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">HDFC Merchant</p></td>
+    </tr>   
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">BharatPe Business</p></td>
+    </tr>  
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">PhonePe Business</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">Paytm Business</p></td>
+    </tr>                                              
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Dynamic QR Code</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p style="color:red;">Wordpress Plugin</p></td>
+    </tr>                                            
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Direct UPI Intent</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Accept All UPI Apps</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>24*7 WhatsApp Support</p></td>
+    </tr>
+</tbody>
+
+                                        </table>
+                                    </div>
+                                    <div class="card-footer">
+                                      <a href="auth/register" class="btn btn-outline-primary btn-block">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>          
+                                          
+                            <div class="col-md-3 mb-4">
+                                <div class="card plan-box text-center">
+                                    <div class="card-header">
+                                        <h4 class="card-title mt-2">Enterprise</h4>
+                                        <h2 class="text-center">₹699</h2>
+                                        <p class="card-category">1 Month</p>
+                                    </div>
+                                    <div class="card-body bg-white">
+                                        <div class="mb-2 text-primary">
+                                            <b style="font-weight:700;font-size:1rem;">30000 Transactions</b></div>
+                                        <table class="mx-auto" style=" line-height: 0.99em; ">
+                                       <tbody>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>4 Merchant Account</p></td>
+    </tr>                                           
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>0 Transaction Fee</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>Realtime Transaction</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>No Amount Limit</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">HDFC Merchant</p></td>
+    </tr>   
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">BharatPe Business</p></td>
+    </tr>  
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">PhonePe Business</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">Paytm Business</p></td>
+    </tr>                                              
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Dynamic QR Code</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p style="color:red;">Wordpress Plugin</p></td>
+    </tr>                                            
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Direct UPI Intent</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Accept All UPI Apps</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>24*7 WhatsApp Support</p></td>
+    </tr>
+</tbody>
+
+                                        </table>
+                                    </div>
+                                    <div class="card-footer">
+                                      <a href="auth/register" class="btn btn-outline-primary btn-block">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>          
+                                          
+                            <div class="col-md-3 mb-4">
+                                <div class="card plan-box text-center">
+                                    <div class="card-header">
+                                        <h4 class="card-title mt-2">GOLD PLAN</h4>
+                                        <h2 class="text-center">₹2999</h2>
+                                        <p class="card-category">1 Year</p>
+                                    </div>
+                                    <div class="card-body bg-white">
+                                        <div class="mb-2 text-primary">
+                                            <b style="font-weight:700;font-size:1rem;">12000 Transactions</b></div>
+                                        <table class="mx-auto" style=" line-height: 0.99em; ">
+                                        <tbody>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>4 Merchant Account</p></td>
+    </tr>                                           
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>0 Transaction Fee</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>Realtime Transaction</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>No Amount Limit</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">HDFC Merchant</p></td>
+    </tr>   
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">BharatPe Business</p></td>
+    </tr>  
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">PhonePe Business</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:red;">Paytm Business</p></td>
+    </tr>                                              
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Dynamic QR Code</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p style="color:red;">Wordpress Plugin</p></td>
+    </tr>                                            
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Direct UPI Intent</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Accept All UPI Apps</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>24*7 WhatsApp Support</p></td>
+    </tr> -->
+<!-- </tbody>
+
+                                        </table>
+                                    </div>
+                                    <div class="card-footer">
+                                      <a href="auth/register" class="btn btn-outline-primary btn-block">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>          
+                                          
+                            <div class="col-md-3 mb-4">
+                                <div class="card plan-box text-center">
+                                    <div class="card-header">
+                                        <h4 class="card-title mt-2">DIMOND PLAN</h4>
+                                        <h2 class="text-center">₹4999</h2>
+                                        <p class="card-category">1 Year</p>
+                                    </div>
+                                    <div class="card-body bg-white">
+                                        <div class="mb-2 text-primary">
+                                            <b style="font-weight:700;font-size:1rem;">5000000 Transactions</b></div>
+                                        <table class="mx-auto" style=" line-height: 0.99em; ">
+                                        <tbody>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>4 Merchant Account</p></td>
+    </tr>                                           
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>0 Transaction Fee</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>Realtime Transaction</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>No Amount Limit</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:rgb(60, 60, 180);">HDFC Merchant</p></td>
+    </tr>   
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:rgb(60, 60, 180);">BharatPe Business</p></td>
+    </tr>  
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:rgb(60, 60, 180);">PhonePe Business</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p style="color:rgb(60, 60, 180);">Paytm Business</p></td>
+    </tr>                                              
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Dynamic QR Code</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p style="color:rgb(60, 60, 180);">Wordpress Plugin</p></td>
+    </tr>                                            
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Direct UPI Intent</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-danger me-2" data-feather="x"></i></td>
+        <td><p>Accept All UPI Apps</p></td>
+    </tr>
+    <tr>
+        <td><i class="icon-md text-primary me-2" data-feather="check"></i></td>
+        <td><p>24*7 WhatsApp Support</p></td>
+    </tr>
+</tbody>
+
+                                        </table>
+                                    </div>
+                                    <div class="card-footer">
+                                      <a href="auth/register" class="btn btn-outline-primary btn-block">Get Started</a>
+                                    </div>
+                                </div>
+                            </div>          
+                                  
+                        </div>
+                </div>
+                <!-- end of .container-->
+            </section> -->
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="" id="helpdesk">
+                <div class="bg-holder z-index--1 bottom-0 d-none d-lg-block background-position-top" style="background-image: url(home/upiapp/helpdesk-bg.png); opacity: 0.5; background-position: top !important ;"></div>
+                <!--/.bg-holder-->
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <h1 class="fw-bold mb-4 fs-7">Help Desk</h1>
+                            <p class="mb-3 text-info fw-medium">
+                                If you need some help: Contact us! <!--Integration, Api, Accounts, UPI Merchant, Settlement? -->
+                            </p>
+                            <button class="btn btn-primary btn-md" onclick="location.href='https://wa.me/+918441939422'"><i class="fab fa-whatsapp fa-fw fa-lg"></i> Let's chat on WhatsApp!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+           
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pb-2 pb-lg-5" style="margin-top:-5%;">
+                <div class="container">
+                    <div class="row border-top border-top-secondary pt-7" style="display: flex; justify-content: center;">
+                        <!-- <div class="col-lg-3 col-md-6 mb-4 mb-md-6 mb-lg-0 mb-sm-2 order-1 order-md-1 order-lg-1"><img class="mb-2" src="../warobot.in/assets/website/u2-removebg-preview.png" width="184" alt="" />
+                            <p>We are happy to introduce you about UPI QR Code Generator Api, UPI QR Code Generator Api is an IT and Fintech services provider company and deals with IT market Requirements and custom software.</p>
+                        </div> -->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 order-3 order-md-3 order-lg-2">
+                            <p class="fs-2 mb-lg-4"><b>For Some Other Ideas Please Contact us!</b></p>
+                            <ul class="list-unstyled mb-0">
+                                <!-- Replace the WhatsApp link with links to your social media profiles -->
+                                <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="https://www.linkedin.com/in/mlokesh4" target="_blank">Linkedin</a></li>
+                                <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="https://twitter.com/nikhilg59404842" target="_blank">Twitter</a></li>
+                                <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="https://www.instagram.com/unfav.candy/" target="_blank">Instagram</a></li>
+<!-- Add more social media links as needed -->
+
+                                <!-- <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="https://wa.me/+918441939422" target="_blank">WhatsApp Api</a></li>
+                                <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="https://wa.me/+918441939422" target="_blank">Recharge Api</a></li> -->
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 order-4 order-md-4 order-lg-3">
+                            <p class="fs-2 mb-lg-4"><b>Quick Links</b></p>
+                            <ul class="list-unstyled mb-0">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="auth/register">Register</a></li>
+                                <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="#feature">Feature</a></li>
+                                <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="#">Prototype</a></li>
+                                <li class="mb-2"><a class="link-900 text-secondary text-decoration-none" href="auth/index">Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0 order-2 order-md-2 order-lg-4">
+                            <p class="fs-2 mb-lg-4">Support</p>
+                            <p class="mb-2">8441939422</p>
+                            <a href="auth/register" class="btn btn-primary fw-medium py-1">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="text-center py-0">
+                <div class="container">
+                    <div class="container border-top py-3">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-auto mb-1 mb-md-0">
+                                <p class="mb-0">&copy; 2024 Made By Dead Of Night.</p>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <p class="mb-0">Made with<span class="fas fa-heart mx-1 text-danger"> </span>by <a class="text-decoration-none ms-1" href="#" target="_blank">Dead Of Night.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+        </main>
+        <!-- ===============================================-->
+        <!--    End of Main Content-->
+        <!-- ===============================================-->
+
+        <!-- ===============================================-->
+        <!--    JavaScripts-->
+        <!-- ===============================================-->
+        <script src="../ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="home/vendors/%40popperjs/popper.min.js"></script>
+        <script src="home/vendors/bootstrap/bootstrap.min.js"></script>
+        <script src="home/vendors/is/is.min.js"></script>
+        <script src="../polyfill.io/v3/polyfill.min58be.js?features=window.scroll"></script>
+        <script src="home/vendors/fontawesome/all.min.js"></script>
+        <script src="home/assets/js/theme.js"></script>
+        <script>
+          $( document ).ready(function() {
+           $('#disclaimer').modal({backdrop: 'static', keyboard: false})  
+           $("#disclaimer").modal("show");
+          });
+        </script>
+    </body>
+
+<!-- Mirrored from upigetway.com/index by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Oct 2023 17:52:32 GMT -->
+</html>
